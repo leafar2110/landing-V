@@ -1,0 +1,260 @@
+body{
+	 margin: 0;
+}
+
+.titulo-modals h1, span{
+    margin: 0;	
+    color: white;
+}
+.titulo-modals h1{
+	    font-size: 52px;
+    padding-top:5px;
+}
+.titulo-modals span{
+	    font-size: 25px;
+    padding: 0 10px;
+}
+
+.section-modals{
+	font-family: 'arial', sans-serif;
+	height: 100vh;
+}
+.container-grid{
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+}
+
+.img-background{
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	height: 75vh;
+	width: 100%;
+	z-index: -111;
+}
+.grid-left{
+	height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 26vh;
+  }
+  .grid-right h1{
+  	color: white;
+  	text-align: center;
+  }
+  .centrar-text{
+  	text-align: center;
+  }
+/*
+****************formulario**********************
+*/
+.checkbox{
+	font-size: 13px;
+	color: white;
+}
+.form-container{
+	max-width: 400px;
+	position: absolute;
+    bottom: 10vh;
+    right: 15vh;
+}
+.form-style-5{
+	   max-width: 400px;
+	    border-radius: 10px;
+    padding: 0px 25px;
+    margin: 20px 25px 0;
+    background: rgba(24, 111, 184, 0.86);
+}
+.boton-submit{
+	    margin-top: 13px;
+	    background: #1498e3;
+    border: none;
+    font-weight: bold;
+    color: white;
+
+}
+.form-subscribe{
+	display: grid;
+}
+
+.form-subscribe .input-text{
+	margin-bottom: 10px;
+    border-radius: 7px;
+    padding: 7px;
+    border: none;;
+}
+.form-subscribe h1{
+	    text-align: center;
+	    color: white;
+}
+.form-subscribe legend{
+	color: white;
+	padding-bottom: 10px;
+}
+.info-modals h2{
+	    margin: 10px;
+    font-size: 16px;
+    color: #34343a;
+
+}
+.info-modals p{
+	 margin: -8px 0;
+    font-size: 14px;
+    color: #5f5656;
+    padding: 0 15px;
+
+}
+.info-modals a{
+	text-decoration: none;
+	color: #1498e3;
+}
+
+/******************************************/
+@media (min-width: 1024px) and (max-width: 1355px){
+	.form-container {
+    position: static;
+   
+}
+.titulo-modals h1 {
+    font-size: 38px;
+    /* padding-top: 5px; */
+}
+.titulo-modals span {
+    font-size: 17px;
+}
+.info-modals p {
+    font-size: 10px;
+      }
+      .info-modals h2 {
+    font-size: 15px;
+      }
+          .form-subscribe legend {
+    padding-bottom: 3px;
+}
+.form-subscribe .input-text {
+    margin-bottom: 9px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+.boton-submit {
+    margin-top: 5px;
+}
+}
+
+
+
+ @media (min-width: 426px) and (max-width: 1023px){
+ 
+ .titulo-modals h1 {
+    font-size: 29px;
+    /* padding-top: 5px; */
+}
+.titulo-modals span {
+    font-size: 15px;
+}
+
+.info-modals p {
+    font-size: 8px;
+      }
+      .info-modals h2 {
+    font-size: 10px;
+      }
+
+      .form-style-5 {
+      	margin: 0;
+      }
+      .form-container {
+    max-width: 400px;
+    position: static;
+    /* bottom: -12vh; */
+    /* right: 15vh; */
+        padding-right: 30px;
+        padding-top: 30px;
+}
+.grid-right h1 {
+    font-size: 17px;
+}
+  .form-style-5 {
+      	margin: 0;
+      }
+      .form-subscribe legend {
+    padding-bottom: 3px;
+}
+.form-subscribe .input-text {
+    margin-bottom: 6px;
+    border-radius: 5px;
+    padding: 4px;
+    border: none;
+}
+.boton-submit {
+    margin-top: 5px;
+}
+.grid-right h1 {
+    padding-top: 0px;
+}
+
+ }
+
+@media screen and (max-width:767px){
+	
+}
+
+ @media screen and (max-width: 600px){
+
+ 
+ }
+
+ @media (min-width: 0px) and (max-width: 425px){
+.container-grid{
+	display: grid;
+	    grid-template-columns: 1fr
+}
+.grid-left{
+    display: grid;
+    grid-template-rows: 1fr 26vh;
+  }
+  .titulo-modals h1 {
+    font-size: 15px;
+    /* padding-top: 5px; */
+}
+.titulo-modals span {
+    font-size: 12px;
+}
+
+.info-modals p {
+    font-size: 8px;
+      }
+      .info-modals h2 {
+    font-size: 10px;
+      }
+
+      .form-style-5 {
+      	margin: 0;
+      }
+      .form-container {
+    bottom:27vh;
+    right: 2vh;
+    left: 2vh;
+}
+
+.grid-right h1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.form-subscribe legend {
+    padding-bottom: 3px;
+}
+.form-subscribe .input-text {
+    margin-bottom: 6px;
+    border-radius: 5px;
+    padding: 4px;
+    border: none;
+}
+.boton-submit {
+    margin-top: 5px;
+}
+.titulo-modals p{
+    margin: 0;
+ }
+}
+
