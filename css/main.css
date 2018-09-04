@@ -58,9 +58,9 @@ body{
     right: 15vh;
 }
 .form-style-5{
-	   max-width: 400px;
-	    border-radius: 10px;
-    padding: 0px 25px;
+	max-width: 400px;
+	border-radius: 10px;
+    padding: 0px 27px 0 20px;
     margin: 20px 25px 0;
     background: rgba(24, 111, 184, 0.86);
 }
@@ -70,6 +70,7 @@ body{
     border: none;
     font-weight: bold;
     color: white;
+     width: 100%;
 
 }
 .form-subscribe{
@@ -80,7 +81,8 @@ body{
 	margin-bottom: 10px;
     border-radius: 7px;
     padding: 7px;
-    border: none;;
+    border: none;
+     width: 100%;
 }
 .form-subscribe h1{
 	    text-align: center;
@@ -205,7 +207,12 @@ body{
  }
 
  @media (min-width: 0px) and (max-width: 425px){
+ 	.info-modals{
+ 	position: absolute;
+    bottom: 7vh;
+ 	}
 .container-grid{
+	    position: relative;
 	display: grid;
 	    grid-template-columns: 1fr
 }
