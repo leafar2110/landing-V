@@ -31,6 +31,15 @@ body{
 	height: 75vh;
 	width: 100%;
 	z-index: -111;
+} .difuminado{
+	background-image: linear-gradient(to right, rgba(33, 150, 243, 0), rgba(67, 79, 218, 0.27), rgba(0, 90, 134, 0.7), rgba(0, 90, 134, 0.85), #005a86);
+	height: 75vh;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 50%;
+	z-index: -11;
 }
 .grid-left{
 	height: 100vh;
@@ -65,14 +74,15 @@ body{
     background: rgba(24, 111, 184, 0.86);
 }
 .boton-submit{
-	    margin-top: 13px;
-	    background: #1498e3;
+	margin-top: 13px;
+	background-image: linear-gradient(to bottom, #ffffff, #a1a9ff, #648dff, #358bfd, #1498e3);
     border: none;
     font-weight: bold;
     color: white;
      width: 100%;
 
 }
+
 .form-subscribe{
 	display: grid;
 }
@@ -197,22 +207,13 @@ body{
 
  }
 
-@media screen and (max-width:767px){
-	
-}
-
- @media screen and (max-width: 600px){
-
- 
- }
-
  @media (min-width: 0px) and (max-width: 425px){
  	.info-modals{
- 	position: absolute;
+ 	
     bottom: 7vh;
  	}
 .container-grid{
-	    position: relative;
+	    ;
 	display: grid;
 	    grid-template-columns: 1fr
 }
